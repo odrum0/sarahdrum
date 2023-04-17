@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang= "pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formulario.css">
+</head>
+<body>
+    <header><!--cabeçalho--></header>
+    
+    <main><!--meio-->
+      <section>
+          <form>
+             <fieldset>
+                 <legend><strong>Formulario de Clientes</strong></legend>
+                 <br>
+                 <section>
+                      <input type="text" name="name" class="inputUser" required>
+                      <label for="name" class="labeliput"> Nome completo </label>
+                 </section>
+                 <br>
+                 <section>
+                    <input type="tex" name="email" id="email" class="inputUser">
+                    <label for="email" class="labeliput"> Email </label>
+                 </section>
+                 <br>
+                 <section>
+                    <input type="tel" name="telefone" id="telefone" class="inputUser">
+                    <label for="telefone" class="labeliput"> Telefone  </label>
+                 </section>
+                  
+                 <P>Sexo:</P>
+
+                 <input type="radio" name="genero" id="feminino" volue="feminino" required>
+                 <label for="feminino">Feminino</label>
+                 <br>
+
+                 <input type="radio" name="genero" id="masculino">
+                 <label for="masculino">Masculino</label>
+                 <br>
+
+                 <input type="radio" name="genero" id="outro" value="outro">
+                 <label for="outro">Outro</label>
+                 <br><br>
+
+                 <label for="data_nascimento"> <strong>Ano de Nascimento<strong></label>
+                 <input type="date" name="data_nascimento" id="data_nascimento" required>
+                 <br><br><br>
+
+                 <section>
+                    <input type="text" name="cidade" id="cidade" class="inputUser" required>
+                    <label for="cidade" class="labelinput">Cidade </label>
+                 </section>
+                 <br><br>
+
+                 <section>
+                    <input type="text" name="estado" id="estado" class="inputUser" required>
+                    <label for="estado" class="labelinput"> Estado </label>
+                </section>
+                <br><br>
+
+                <section>
+                    <input type="tex" name="endereco" id="endereco" class="inputUser" required>
+                    <label for="endereco" class="inputUser"> Endereço </label>
+                </section>
+                <br><br>
+
+                    <input type="submit" name="submit" id="submit">
+
+              </fieldset>
+            </form>
+        </section>   
+    </main>
+    <footer> Sarah Drum</footer>
+</body>
+</html>
