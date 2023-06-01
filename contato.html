@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Contato</title>
+    <link rel="stylesheet" href="contato.css">
+</head>
+
+<body>
+     <header>  
+       <img id="logo" src="logoo.png">
+       <h1 class="titulo-principal">Boutique Moda Feminina
+       SD</h1>
+         
+
+      </header>
+
+     <main>
+         <form>
+                 <label  for="nomesobrenome">Nome e sobrenome:</label>
+                 <input type="text" name="nome" id="nomesobrenome" class="input-padrao"
+                 placeholder="Seu nome e sobrenome " required><br><br>
+
+                 <label  for="email">Email:</label>
+                 <input type="text" name="email" id="email" class="input-padrao"
+                 placeholder="seuemail@dominio.com" required><br><br>
+
+                 <label  for="telefone">Telefone:</label>
+                 <input type="text" name="telefone" id="telefone" class="input-padrao"
+                 placeholder="(XX) XXXXX-XXXX "
+                 placeholder="Escreva sua mensagem aqui" required><br>
+
+                 <label for="mensagem">Mensagem:</label>
+                 <textarea cols="70" rows="10" id="mensagem"  
+                 placeholder="envie sua mensagem aqui" required>
+                 </textarea>
+
+                <section>
+                     <p>Como prefere nosso contato?</p>
+                     <input type="radio" name="contato" value="email" id="radio-email">
+                     <label for="radio-email">Email</label>
+                     
+                     <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                     <label for="radio-telefone">Telefone</label>
+
+                     <input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+                     <label for="radio-whatsapp">Whatsapp</label>
+
+                </section>
+
+                <section>
+                     <p>Qual o horário prefere ser atendido</p>
+                     <select>
+                         <option>Manhã</option><!--dropdown - seleções selecionáveis-->
+                         <option>Tarde</option>
+                         <option>Noite</option>
+                     </select>
+                </section> <br>
+
+                <label class="checkbox">
+                <input type="checkbox">Gostaria de receber nossas novidades no email?</label> <br><br>
+
+                <input type="submit" value="Enviar formulário" class="enviar">
+
+
+               
+
+
+         </form>
+ </main>
+
+<footer>
+    <img id="logo1" src="logoo.png">
+    <p class="copyright">&copy; Copyright -- Sarah Drum</p>
+</footer>
+   
+</body>
+</html>
