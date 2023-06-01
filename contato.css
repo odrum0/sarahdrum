@@ -1,0 +1,60 @@
+round: #FFF0F5 	;
+    padding: 50px;
+
+}header{
+    backg
+
+#logo{
+    border-radius: 220px;
+
+}
+
+#logo1{
+    width: 200px;
+    height: 100px;
+    text-align: Display;
+   
+}
+
+@font-face {
+    font-family: 'malibu';
+    src: url('Malibu.ttf')  format('opentype');
+}
+
+.titulo-principal{
+    position: absolute;
+    top: 13%;
+    left: 30%;
+    transform: translate(10%, 50%);
+    font-size: 50px;
+    font-family: malibu;
+    color: #FFB6C1 	;
+    text-align: center;
+    /*A propriedade text-shadow acrescenta sombras ao texto.
+    Ela aceita uma lista de sombras separadas por virgula que serão 
+    aplicados ao texto e ao text-decorations do elemento.*/
+    color: #000;
+    text-shadow:
+               -1px 1px 0px #800000,
+               -1px 4px 0px #FFF,
+               -1px 1px 0px #FFF,
+               -1px 0px 0px #FFF;
+    /*font-family:'Gagalin', sem serifa;*/
+    /*font-family:Barlow;*/
+    
+}
+rav{
+    position: absolute;
+    /*posicionamento dos links*/
+    top:180px;
+    right: 50px
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 40px 0; /*margem superior e inferior de 40px, para os lados "zero"*/
+}
